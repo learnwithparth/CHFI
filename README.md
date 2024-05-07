@@ -55,10 +55,11 @@ Given below are the various types of anti-forensic techniques:
    - **ZIP Password Cracking Tools** Some of the ZIP password-cracking tools are listed below: ▪ Accent ZIP Password Recovery (https://passwordrecoverytools.com) ▪ ZIP Password Genius (https://www.isunshare.com) ▪ PassFab for ZIP (https://www.passfab.com) ▪ ZIP Password Recovery (https://www.top-password.com) ▪ Passper for ZIP (https://passper.imyfone.com)
    - **RAR Cracking Tools** Some of the RAR cracking tools are listed below: ▪ Accent RAR Password Recovery (https://passwordrecoverytools.com) ▪ RAR Password Genius (https://www.isunshare.com) ▪ cRARk (http://www.crark.net) ▪ PassFab for RAR (https://www.passfab.com) ▪ Passper for RAR (https://passper.imyfone.com)
 4. Steganography (masks the data within images and audio files)
-5. Data hiding in file system structures (by renaming files and file extensions)
-6. Trail obfuscation
-7. Artifact wiping
-8. Overwriting data/metadata
-9. Encryption
-10. Program packers
-11. Minimizing footprint (modifies the timestamps on the servers,  such as IP spoofing and onion routing keep)
+   - In addition to the anti-forensic technique(s) discussed previously, attackers may also use the following methods: 1. Steganography, 2. Hiding data in file system structures, 3. Trial obfuscation, 4. File extension mismatch
+6. Data hiding in file system structures (by renaming files and file extensions)
+7. Trail obfuscation
+8. Artifact wiping
+9. Overwriting data/metadata
+10. Encryption
+11. Program packers
+12. Minimizing footprint (modifies the timestamps on the servers,  such as IP spoofing and onion routing keep)
