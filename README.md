@@ -42,7 +42,18 @@ Given below are the various types of anti-forensic techniques:
      - **Recovering ReFS Volumes Using ReFSUtil** ReFSUtil is a command-line tool available on Windows and Windows Servers to diagnose and investigate heavily damaged ReFS volumes, such as identifying the remaining files and copying those files to another volume. The primary function of this tool is to perform ReFS salvage, which can help investigators recover data from volumes shown as RAW in disk management.
      - **RAID Recovery Tools**  Some tools that can be used for this purpose include ▪ DiskInternals RAID Recovery, ▪ R-Studio (https://www.r-studio.com) ▪ RAID Reconstructor (https://www.runtime.org) ▪ Stellar Data Recovery Technician (https://www.stellarinfo.com) ▪ Klennet Recovery (https://www.klennet.com) ▪ UFS Explorer (https://www.ufsexplorer.com)
 2. Password protection
-    **Explore Password Cracking/Bypassing Techniques** 
+    **Explore Password Cracking/Bypassing Techniques**
+   - Computing devices can store and transmit passwords as cleartext, obfuscated, and hashed passwords, of which only hashed passwords require cracking, whereas other password types can assist in the cracking phase.
+   - **Tools to Extract the Password Hashes** pwdump7, ▪ Mimikatz (https://github.com) ▪ PyCrack (https://github.com) ▪ DSInternals PowerShell (https://github.com) ▪ hashcat (https://hashcat.net)
+   - **Password Cracking Tools**  Passware Kit Forensic Source: https://www.passware.com, ▪ John the Ripper (https://www.openwall.com) ▪ THC-Hydra (https://github.com) ▪ hashcat (https://hashcat.net) ▪ Secure Shell Bruteforcer (https://github.com) ▪ DataProtectionDecryptor (https://www.nirsoft.net)
+   - **Bypassing Passwords on Powered-off Computer** Bypassing BIOS Passwords. In the BIOS setup, there are three types of passwords: ▪ System password ▪ Admin password ▪ HDD password. Resetting CMOS Using Jumpers. Bypassing BIOS Passwords by Removing CMOS Battery.
+   - **Tool to Reset Admin and Local User Password: PassFab 4WinKey**
+   - **Bypassing Windows User Password by Booting Live USB.** CAINE, Guymager, an imaging tool
+   - **Application Password Cracking Tools**
+   - **Office Password Cracking Tools** Some of the office password cracking tools are listed below: ▪ Online Password Remover (https://www.password-find.com) ▪ Advanced Office Password Recovery (https://www.elcomsoft.com) ▪ PassFab for Office (https://www.passfab.com) ▪ Passper for Excel (https://passper.imyfone.com) ▪ Office Password Genius (https://www.isunshare.com)
+   - **PDF Cracking Tools** Some of the PDF cracking tools are listed below: ▪ PDF Password Recovery (https://www.top-password.com) ▪ PDF Password Genius (https://www.isunshare.com) ▪ PassFab for PDF (https://www.passfab.com) ▪ Guaranteed PDF Decryptor (http://www.guapdf.com) ▪ Passper for PDF (https://passper.imyfone.com)
+   - **ZIP Password Cracking Tools** Some of the ZIP password-cracking tools are listed below: ▪ Accent ZIP Password Recovery (https://passwordrecoverytools.com) ▪ ZIP Password Genius (https://www.isunshare.com) ▪ PassFab for ZIP (https://www.passfab.com) ▪ ZIP Password Recovery (https://www.top-password.com) ▪ Passper for ZIP (https://passper.imyfone.com)
+   - **RAR Cracking Tools** Some of the RAR cracking tools are listed below: ▪ Accent RAR Password Recovery (https://passwordrecoverytools.com) ▪ RAR Password Genius (https://www.isunshare.com) ▪ cRARk (http://www.crark.net) ▪ PassFab for RAR (https://www.passfab.com) ▪ Passper for RAR (https://passper.imyfone.com)
 4. Steganography (masks the data within images and audio files)
 5. Data hiding in file system structures (by renaming files and file extensions)
 6. Trail obfuscation
