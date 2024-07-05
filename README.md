@@ -1,6 +1,16 @@
 # CHFI
 **Operating System Forensic**
 
+****Challenges to Forensics from Anti-Forensics****
+- accessing and evaluating encrypted data without the relevant decryption keys
+- Attackers securely delete data from the evidence source or overwrite crucial text and metadata
+- Attackers hide crucial data by renaming files and file extensions
+- Misleading evidence decreases the integrity and accuracy of findings by introducing falsified evidence
+- Attackers obfuscate executable code using program packers to avoid detection using antimalware solutions. Other methods such as hiding files within files or utilizing encrypted containers.
+- Attacker modifies the timestamps on the servers while launching an attack, server logging is eliminated.
+- Because anti-forensic techniques such as IP spoofing and onion routing keep the attacker’s identity anonymous
+- Attackers intentionally corrupt critical data to weaken the integrity and reliability of digital evidence
+- 
 Given below are the various types of anti-forensic techniques: 
 
 1. Data/file deletion
@@ -16,11 +26,15 @@ Given below are the various types of anti-forensic techniques:
 
      **File Carving Techniques and Ways to Recover Evidence from Deleted Partitions**
      It helps
-     - to recover deleted/lost files and fragments of files from a hard disk when file system metadata is missing.
+     - to recover deleted/lost files and fragments of files from a hard disk when file system metadata are missing.
      - extract valuable artifacts related to a case of cybercrime for further examination.
      - investigators extract data from a storage medium without any support from the file system used for file creation in case A perpetrator may also attempt to delete an entire partition from the hard disk, and then merge the unallocated space of the deleted partition with the primary partition of the system to prevent the investigator from identifying the lost partition.
      - Investigators can analyze file headers to verify the file format using tools such as 010 Editor, CI Hex Viewer, Hexinator, Hex Editor Neo, and WinHex.
      - In TRIM-disabled SSD’s, a forensic investigator can perform file carving to recover lost data from the drive.
+   **SSD File Carving on Windows File System**
+Forensic Workstation: Windows 11
+   - When Autopsy is employed to perform file carving on an evidence file, the software lists the file names (which can be seen in the screenshot); however, the deleted data cannot be recovered.
+**HDD File Carving on Windows File System**
      - The forensic image file is acquired using tools such as FTK Imager and DD utility and examined using Autopsy.
      - **EaseUS Data Recovery Wizard** software is used to recover lost data due to deletion, formatting, partition loss, unbootable or crashed systems, virus attacks, etc., from Recycle Bin, HDD, SSD, SD card, USB drive, cameras, music players, video players, RAID, ZIP drives, and other devices under Windows 11 and Windows Server 2022/2019. It can recover deleted documents, images, videos, emails, and other files. This tool specializes in disk partition recovery. It has the latest file-repair features that can be used to repair corrupt photos, videos, and documents.
      - below are some additional tools for file recovery in Windows:
